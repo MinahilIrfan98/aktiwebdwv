@@ -1,0 +1,72 @@
+.bgBlue{
+    background-color: blue;
+}
+
+.textWhite{
+    color: white;
+}
+
+.showDivBorder{
+    border: 3px solid saddlebrown;
+}
+
+.controlWidth{
+    border: 5px solid rgb(53, 4, 4);
+    border-radius: 10%;
+    width: 25%;
+    height: 50%;
+    margin-left: 500px;
+    border-left: 3px solid green;
+    border-top: 10px dotted red;
+}
+
+.divPara{
+    border: 1px solid black;
+    /* margin: 100px; */ 
+    /* margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 500px;
+    margin-bottom: 60px; */
+    margin: 50px 70px 90px 150px;
+    font-size: smaller;
+    font-weight: bolder;
+    /* padding: 10px 20px 30px 40px; */
+    padding: 50px;
+}
+.divPara:hover{
+    background-color: brown;
+}
+
+.coverFistLine{
+    display: block;
+    color: yellow;
+}
+.footerDiv{
+    border: 3px solid rgb(21, 51, 21);
+}
+.btnStyles{
+    background-color: rgb(50, 50, 131);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.btnStyles:hover{
+    cursor: pointer;
+    background-color: rgb(59, 59, 161);
+    color: rgb(175, 171, 171);
+}
+
+.mediaQuery{
+    background-color: rgb(122, 91, 91);
+    margin: 10px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 430px) and (max-width: 730px) {
+    .mediaQuery {
+        display: block;
+        background-color: rgb(109, 27, 181);
+        margin: 10px;
+        padding: 10px;}
+    }
