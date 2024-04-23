@@ -9,7 +9,6 @@ let multiply=a*b*c
 console.log(multiply)
 let divide= b/a
 console.log(divide)
-
 let module=c%b
 console.log(module)
 console.log(a)
