@@ -23,7 +23,6 @@ numberform.addEventListener('submit', (event) =>
     if (parsednumber === winningNumber) 
     {
         displayresult.innerHTML = `<h1>You Won</h1><p>Number of tries: ${count}</p>`;
-        count++
     }
      else if (parsednumber > winningNumber)
      {
